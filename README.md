@@ -61,11 +61,9 @@ npx hardhat run scripts/deployEscrow.ts --network <network name>
 
 To deploy on network remember to save network url, api key, private key in .env file which will be exported in hardhat.config.ts file.
 
-The Escrow contract is deployed on bsctestnet:
-[`0xEf8a2FBb7EE3bE39345F07b300060fcA1Bc5A65B`](https://testnet.bscscan.com/address/0xEf8a2FBb7EE3bE39345F07b300060fcA1Bc5A65B)
-
 # Coverage
 ![](./gitbook/EscrowCoverage.png)
+
 # Conclusion
 
 In conclusion, the escrow contract provides a robust mechanism for securely managing transactions between parties. By **leveraging** cryptographic techniques like hashing and off-chain signatures, the contract ensures the confidentiality and integrity of beneficiary addresses and release orders. With support for multiple depositors and beneficiaries, the contract offers flexibility and scalability for various use cases. Overall, the escrow contract serves as a reliable and transparent intermediary, facilitating trustful interactions in decentralized environments.
